@@ -41,6 +41,7 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 
   gem 'rspec-rails', '~> 3.7', '>= 3.7.2'
+  gem 'cucumber-rails', git: 'https://github.com/cucumber/cucumber-rails.git', require: false
 end
 
 group :development do
